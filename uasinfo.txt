@@ -1,9 +1,9 @@
 // Vanilla enemies, these now use random spawners to support Bryan's extensions to make sure nothing vanilla seeps over for replacement.
 
-Looting:Rifleman:
-Looting:UndeadRifleman:
-Looting:DeadRifleman: 
-Looting:DeadRiflemanCrouched: 
+Looting:ru_vsr_akm: UaS_ZombieAKM*1000
+Looting:ru_vsr_aks: 
+Looting:ru_emr_akm: UaS_ZombieAKM*1000
+Looting:ru_emr_aks: 
 Looting:HDGoon: 
 Looting:ZombieStormTrooper: 
 Looting:ZombieAutoStormtrooper: 
