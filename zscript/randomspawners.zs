@@ -12,49 +12,49 @@ class UaS_ZombieAKM:HDInvRandomSpawner{
 		dropitem "UaS_TraumaKit",256,6;
 		dropitem "B_AKM",256,12;
 		dropitem "BAKM_762Mag",256,6;
-		dropitem "SevensixtwothirtynineLooseSpawner",256,24;
+		//dropitem "SevensixtwothirtynineLooseSpawner",256,24;
 	}
 }
 
 // 7.62x39mm
-class SevensixtwothirtynineLooseSpawner:IdleDummy{
-    states{
-    spawn:
-        TNT1 A 0 nodelay{
-			if(random(0,2)){
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
-			}else A_SpawnItemEx("B762SovSpent ",1,1,flags:SXF_NOCHECKPOSITION);
-        }stop;
-    }
-}
+//class SevensixtwothirtynineLooseSpawner:IdleDummy{
+//    states{
+//    spawn:
+//        TNT1 A 0 nodelay{
+//			if(random(0,2)){
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("HDB_762sov",3,3,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//				A_SpawnItemEx("B762SovSpent",1,1,flags:SXF_NOCHECKPOSITION);
+//			}else A_SpawnItemEx("B762SovSpent ",1,1,flags:SXF_NOCHECKPOSITION);
+//        }stop;
+//    }
+//}
